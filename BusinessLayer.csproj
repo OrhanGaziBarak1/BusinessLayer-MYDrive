@@ -173,7 +173,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\IDocumentService.cs" />
-    <Compile Include="Abstract\IEmailSender.cs" />
     <Compile Include="Abstract\IFolderService.cs" />
     <Compile Include="Abstract\ILoginService.cs" />
     <Compile Include="Abstract\IRoleAuthorityService.cs" />
@@ -181,7 +180,6 @@
     <Compile Include="Abstract\IUserAuthorityService.cs" />
     <Compile Include="Abstract\IUserService.cs" />
     <Compile Include="Concrete\DocumentManager.cs" />
-    <Compile Include="Concrete\EmailSender.cs" />
     <Compile Include="Concrete\FolderManager.cs" />
     <Compile Include="Concrete\LoginManager.cs" />
     <Compile Include="Concrete\RoleAuthorityManager.cs" />
